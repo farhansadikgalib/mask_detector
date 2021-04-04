@@ -16,7 +16,7 @@ class _Splash_ScreenState extends State<Splash_Screen> {
       seconds: 5,
       navigateAfterSeconds: HomeScreen() ,
 
-      title: Text("Mask Detector",style: TextStyle(fontSize: 24,color: Colors.orange,fontWeight: FontWeight.w800),),
+      title: Text("Mask Detector",style: TextStyle(fontSize: 24,color: Colors.black,fontWeight: FontWeight.w800),),
       image: Image.asset("assets/splash.png"),photoSize: 125,
       backgroundColor: Colors.white,
       loaderColor: Colors.black,
