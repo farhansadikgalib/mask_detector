@@ -13,17 +13,17 @@ class _Splash_ScreenState extends State<Splash_Screen> {
   Widget build(BuildContext context) {
     return SplashScreen(
       
-      seconds: 5,
+      seconds: 3,
       navigateAfterSeconds: HomeScreen() ,
 
-      title: Text("Mask Detector",style: TextStyle(fontSize: 24,color: Colors.black,fontWeight: FontWeight.w800),),
+      title: Text("Mask Detector",style: TextStyle(fontSize: 24,color: Colors.orange,fontWeight: FontWeight.w800),),
       image: Image.asset("assets/splash.png"),photoSize: 125,
       backgroundColor: Colors.white,
       loaderColor: Colors.black,
       loadingText: Text("Developed by Farhan",style: TextStyle(color: Colors.black,fontSize: 16.0),),
 
 
-      
+
     );
   }
 }
